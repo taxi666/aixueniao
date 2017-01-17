@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>账户明细</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!-- <script src="assets/js/echarts.min.js"></script> -->
+</head>
+<body data-type="index">
+    <div id="headWrapper"></div>
+    <div class="tpl-page-container tpl-page-header-fixed">
+        <div id="navWapper"></div>
+        
+        <div class="tpl-content-wrapper">
+            <ol class="am-breadcrumb">
+                <li><a href="#" >爱学鸟</a></li>
+                <li class="am-active">账户明细</li>
+            </ol>
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+                    <div class="caption font-green bold">
+                        账户明细
+                    </div>
+                    
+                </div>
+                <div class="tpl-block" style="padding-bottom:10px;">
+                    <div class="detail_box" style="margin-bottom:40px;">
+                       <h4 >账户余额：<span>1234</span>元</h4>
+                        <button type="button" class="am-btn am-btn-primary" style="margin-right:20px;">充值</button>
+                        <div class="account_desc">
+                            <p>余额说明：账户余额不低于200元，少于200元或欠费，都会有微信官方通知提醒。</p>
+                            <p>充值说明：本平台暂不支持在线充值，请扫描右边二维码转账并给官方微信客服，1-3分钟内即到账。</p>
+                        </div>    
+                    </div>
+                    <div class="detail_box pay_box clearfix">
+                       <h4 >充值账号：</h4>
+                        <ul class="pay_list clearfix">
+                            <li>
+                                <div class="pay_info">
+                                    <p class="p1"><img src="assets/images/logo_zfb.jpg" alt="">支付宝充值</p>
+                                    <p class="p2">用户：爱学鸟</p>
+                                    <p class="p3">账号：2603849073@qq.com</p>
+                                </div>
+                                <div class="pay_qr">
+                                    <img src="assets/images/qr_zfb.jpg">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pay_info">
+                                    <p class="p1"><img src="assets/images/logo_weixin.jpg" alt="">微信充值</p>
+                                    <p class="p2">用户：爱学鸟</p>
+                                    <p class="p3">账号：2603849073@qq.com</p>
+                                </div>
+                                <div class="pay_qr">
+                                    <img src="assets/images/qr_weixin.jpg">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pay_info">
+                                    <p class="p1"><img src="assets/images/logo_yinlian.jpg" alt="">银联转账</p>
+                                    <p class="p2">中国银行：4559 7279 7209</p>
+                                    <p class="p3">上海优鸟教育科技有限公司</p>
+                                </div>
+                                <div class="pay_qr">
+                                    <img src="assets/images/logo_boc.png">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="vedio_detail">
+                    <h4>视频点击明细</h4>
+                    <table class="am-table am-table-striped am-table-hover">
+                        <tr>
+                            <th width="100">日期</th>
+                            <th width="100">课程名称</th>
+                            <th width="100">点击量</th>
+                        </tr>
+                        <tr>
+                            <td>2017-01-08 00:00:00 ~ 2017-01-09 23:59:59</td>
+                            <td>学大初中英语精英版</td>
+                            <td>1023次</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <!-- <script src="assets/js/iscroll.js"></script> -->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/vue.min.js"></script>
+    <script src="assets/js/message.js"></script>
+    <script type="text/javascript">
+        $.commHeader('accountDetail');
+    </script>
+</body>
+
+</html>

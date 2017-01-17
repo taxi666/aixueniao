@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>课程一览－抢课数据</title>
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body data-type="generalComponents">
+
+
+    <div id="headWrapper"></div>
+    <div class="tpl-page-container tpl-page-header-fixed">
+        <div id="navWapper"></div>
+        <div class="tpl-content-wrapper">
+            <ol class="am-breadcrumb">
+                <li><a href="#" class="am-icon-home">首页</a></li>
+                <li class="am-active">课程一览</li>
+            </ol>
+            <div class="tpl-portlet-components school_box">
+                <div class="am-u-sm-12 ">
+                    <div class="am-form-group">
+                        <label class="am-u-sm-2 am-form-label">
+                            所属校区
+                        </label>
+                        <div class="am-u-sm-10">
+                            <select data-am-selected="{btnSize: 'sm'}">
+                              <option value="">请选择校区</option>
+                              <option value="option2">新泾教育高境分校</option>
+                              <option value="option3">数码产品</option>
+                              <option value="option3">笔记本电脑</option>
+                              <option value="option3">平板电脑</option>
+                              <option value="option3">只能手机</option>
+                              <option value="option3">超极本</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+                    <div class="caption font-green bold">
+                        课程一览－抢课查看
+                    </div>
+                </div>
+                <div class="tpl-block">
+                    <div class="am-g">
+                        <div class="am-u-sm-12">
+                            <form class="am-form">
+                                <table class="am-table am-table-striped am-table-hover table-main">
+                                    <thead>
+                                        <tr>
+                                            <th class="table-id" width="100">昵称</th>
+                                            <th class="table-title" width="100">学鸟号</th>
+                                            <th class="table-type" width="100">优惠金额</th>
+                                            <th class="table-author am-hide-sm-only" width="100">参与形式</th>
+                                            <th class="table-date am-hide-sm-only" width="100">时间</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>张三三</td>
+                                            <td>1703848598</td>
+                                            <td class="am-hide-sm-only">200元</td>
+                                            <td class="am-hide-sm-only">预约</td>
+                                            <td>2017/1/10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>张三三</td>
+                                            <td>1703848598</td>
+                                            <td class="am-hide-sm-only">200元</td>
+                                            <td class="am-hide-sm-only">预约</td>
+                                            <td>2017/1/10</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- 分页  -->
+                                <!-- <div class="am-cf">
+
+                                    <div class="am-fr">
+                                        <ul class="am-pagination tpl-pagination">
+                                            <li class="am-disabled"><a href="#">«</a></li>
+                                            <li class="am-active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li><a href="#">»</a></li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                                <hr>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tpl-alert"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/message.js"></script>
+     <script type="text/javascript">
+        $.commHeader('courseList');
+    </script>
+</body>
+
+</html>
